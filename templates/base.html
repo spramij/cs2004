@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CS2006 notes by Sohil</title>
+</head>
+
+<body>
+<div id="navbar" style="height: 25px; background-color: beige">
+    {% for item in navbar %}
+        <span style="border-radius: 20px"><a href="{{ item }}">{{ item }}</a></span>
+    {% endfor %}
+</div>
+
+<div>
+    {% block content %}
+    {% endblock %}
+</div>
+
+</body>
+</html>
