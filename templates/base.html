@@ -7,6 +7,11 @@
     <title>CS2004 notes by Sohil</title>
     <script type="text/javascript" src="static/addSomeColors.min.js"></script>
     <link rel="stylesheet" type="text/css" href="static/styles.min.css">
+    {% if colors %}
+        <link rel="stylesheet" type="text/css" href="static/inverted.min.css">
+    {% endif %}
+    <script src="lib/inverted.js"></script>
+
 </head>
 
 <body>
@@ -14,9 +19,12 @@
     {% for item in navbar %}
         <span><a href="{{ item }}">{{ item }}</a></span>
     {% endfor %}
+    <!-- <button id="invertedmode" type="button" onclick="location.href='http://cs2004.pramij.com/_invert'">My eyes hurt!</button> -->
+    <button style="float: right" id="invertedmode" type="button" onclick="location.href='http://0.0.0.0:5000/_invert'">My eyes hurt!</button>
+    
 </div>
 
-<div>
+<div id="content">
     {% block content %}
     {% endblock %}
 </div>
