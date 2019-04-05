@@ -25,7 +25,7 @@
 - rools%background
 - raw conclusion
 - critical section
-- pid manager %& manager
+- pid manager & manager
 - 3 Criteria to solve
 - mutual exclusion
 - progress
@@ -43,7 +43,7 @@
 - Problems & Solutions
 - bounded buffer pb
 - readers-writers pb
-- Dining philosophers pb --> `vvv important` 
+- Dining philosophers pb **`--> vvv important`**
 
 # Deadlocks
 - contention for resource
