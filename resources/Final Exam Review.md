@@ -1,6 +1,3 @@
-# Let's get this bread boyz
-
-- [Let's get this bread boyz](#lets-get-this-bread-boyz)
 - [Intro](#intro)
 - [CPU scheduling:](#cpu-scheduling)
 - [Process synchornization](#process-synchornization)
@@ -22,7 +19,7 @@
 - C.F.S.
 
 # Process synchornization
-- rools%background
+- tools & background
 - raw conclusion
 - critical section
 - pid manager & manager
