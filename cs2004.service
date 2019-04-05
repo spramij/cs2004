@@ -1,12 +1,12 @@
 [Unit]
-Description=uWSGI instance to serve CS2006
+Description=uWSGI instance to serve CS2004
 After=network.target
 
 [Service]
 User=root
 Group=www-data
-WorkingDirectory=/var/www/html/cs2006/cs2006
-ExecStart=/var/www/html/cs2006/venv/bin/uwsgi --ini /var/www/html/cs2006/cs2006/cs2006.ini
+WorkingDirectory=/var/www/html/cs2004/cs2004
+ExecStart=/var/www/html/cs2004/venv/bin/uwsgi --ini /var/www/html/cs2004/cs2004/cs2004.ini
 
 [Install]
 WantedBy=multi-user.target

@@ -1,4 +1,4 @@
-from flask import *
+from flask import Flask, render_template
 import os, pypandoc, random
 
 
