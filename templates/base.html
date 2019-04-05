@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="icon" href="data:,">
+
     <meta charset="UTF-8">
     <title>CS2004 notes by Sohil</title>
+    <script type="text/javascript" src="static/addSomeColors.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="static/styles.min.css">
 </head>
 
 <body>
-<div id="navbar" style="height: 25px; background-color: beige">
+<div id="navbar">
     {% for item in navbar %}
-        <span style="border-radius: 20px"><a href="{{ item }}">{{ item }}</a></span>
+        <span><a href="{{ item }}">{{ item }}</a></span>
     {% endfor %}
 </div>
 
@@ -16,6 +20,6 @@
     {% block content %}
     {% endblock %}
 </div>
-
+<script>addColors();</script>
 </body>
 </html>
