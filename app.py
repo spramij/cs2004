@@ -19,7 +19,10 @@ def index():
 def give_me(chapter):
     try:
         file_to_compile = "resources/"+chapter+".md"
-        this = pypandoc.convert_file(file_to_compile, 'html')
+        this = pypandoc.convert_file(file_to_compile, 
+        to='html5', 
+        format='md', 
+        extra_args=['--standalone', '--mathjax'])
     except :
         return render_template('error.min.html',  navbar=update_navbar(), colors=inverted)
     return render_template("chapters.min.html", navbar=update_navbar(), chapter=this, colors=inverted)
