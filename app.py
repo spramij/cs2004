@@ -9,7 +9,7 @@ global navbar
 
 inverted = False
 def update_navbar():
-    return [str(file)[2:-3] for file in os.listdir("resources")]
+    return [str(file)[:-3] for file in os.listdir("resources")]
 
 @app.route("/")
 def index():
