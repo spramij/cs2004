@@ -12,7 +12,7 @@
 
 # CPU scheduling: 
 - scheduling algo
-  - burst time
+    - burst time
 - assessing sched algo
 - multiprocessor sched
 - real-time sched
@@ -50,34 +50,34 @@
 - liveClock
 - 4 conditions requires for deadlock to occur
 - ressource alltocation graph
-  - cycle in graph
+    - cycle in graph
 - safe state
 - 3 methods for dealing with deadlocks
-  - ignore
-  - avoid
-  - recover
+    - ignore
+    - avoid
+    - recover
 - Bankers algo
-  - deadlock recovery
+    - deadlock recovery
 
 # Memory
 - memory allocation
 - paging
 - page table & management
 - fragmentation
-  - external & internal
+    - external & internal
 - translation lookaside buffer 
-  - what its used for & what good for
+    - what its used for & what good for
 - swapping
-  - not virtual memory (thats in next chap)
+    - not virtual memory (thats in next chap)
 - alternative page table impl
-  - hierarchical
-  - hashed
+    - hierarchical
+    - hashed
 - Interl PAE
 
 # Virtual memory
 - page faults
 - algs to deal with page faults
-  - optimal algo is the one that we will compare all other against
+    - optimal algo is the one that we will compare all other against
 - demand page
 - CopyOnWrite
 - page replacement alg
