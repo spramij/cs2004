@@ -4,16 +4,12 @@ import os, pypandoc, random
 
 app = Flask(__name__)
 
-global inverted
-global navbar
-
-inverted = False
 def update_navbar():
-    return [str(file)[:-3] for file in os.listdir("resources")]
+    return sorted([str(file)[:-3] for file in os.listdir("resources")])
 
 @app.route("/")
 def index():
-    return render_template("index.min.html", navbar=update_navbar(), colors=inverted)
+    return render_template("index.min.html", navbar=update_navbar())
 
 @app.route("/<chapter>")
 def give_me(chapter):
@@ -24,19 +20,13 @@ def give_me(chapter):
         format='md', 
         extra_args=['--standalone', '--mathjax'])
     except :
-        return render_template('error.min.html',  navbar=update_navbar(), colors=inverted)
-    return render_template("chapters.min.html", navbar=update_navbar(), chapter=this, colors=inverted)
-
-@app.route("/_invert")
-def invert_colors():
-    global inverted
-    inverted ^= 1
-    return redirect('/')
+        return render_template('error.min.html',  navbar=update_navbar())
+    return render_template("chapters.min.html", navbar=update_navbar(), chapter=this)
 
 
 @app.errorhandler(404)
 def page_not_found(e):
-        return render_template('error.min.html', navbar=update_navbar(), colors=inverted)
+        return render_template('error.min.html', navbar=update_navbar())
 
 if __name__ == '__main__':
     app.run(host="0.0.0.0")

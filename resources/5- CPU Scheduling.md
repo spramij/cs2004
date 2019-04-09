@@ -10,6 +10,8 @@
 - [Multiple Processor Scheduling](#multiple-processor-scheduling)
 - [Latency](#latency)
 - [Little's Formula](#littles-formula)
+
+
 ## Main types:
 - preemptive:
     - when a process switches goes `running --> ready` or `waiting --> ready` 

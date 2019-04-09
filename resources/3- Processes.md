@@ -1,4 +1,3 @@
-Table of content
 - [How it be:](#how-it-be)
 - [Multiple states](#multiple-states)
 - [Queuing algorithms](#queuing-algorithms)
@@ -9,6 +8,7 @@ Table of content
 - [Buffering](#buffering)
 - [Sockets](#sockets)
 - [Pipes](#pipes)
+
 
 # Processes  <!-- omit in toc -->
 ## How it be:
