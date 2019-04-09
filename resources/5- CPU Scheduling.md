@@ -1,5 +1,15 @@
 ## [TutorialsPoint video](https://www.tutorialspoint.com/operating_system/os_process_scheduling_algorithms.htm)
-
+- [TutorialsPoint video](#tutorialspoint-video)
+- [Main types:](#main-types)
+- [Dispatcher](#dispatcher)
+- [How to evaluate good CPU scheduling: criterias](#how-to-evaluate-good-cpu-scheduling-criterias)
+- [Scheduling algos](#scheduling-algos)
+- [Convoy Effect](#convoy-effect)
+- [Gantt Charts](#gantt-charts)
+- [Thread scheduling](#thread-scheduling)
+- [Multiple Processor Scheduling](#multiple-processor-scheduling)
+- [Latency](#latency)
+- [Little's Formula](#littles-formula)
 ## Main types:
 - preemptive:
     - when a process switches goes `running --> ready` or `waiting --> ready` 

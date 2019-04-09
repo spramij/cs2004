@@ -24,23 +24,23 @@
 - critical section
 - pid manager & manager
 - 3 Criteria to solve
-- mutual exclusion
-- progress
-- bounded waiting
+  - mutual exclusion
+  - progress
+  - bounded waiting
 - Peterson's solution
 - hardware support
 - atomic vars & operations
 - Tools
 - MUTEX
 - Semaphores
-- requires programmers to correctly implement
+  - requires programmers to correctly implement
 - Deadlocks
 - resource contention
 - priority inversion
 - Problems & Solutions
-- bounded buffer pb
-- readers-writers pb
-- Dining philosophers pb **`--> vvv important`**
+  - bounded buffer pb
+  - readers-writers pb
+  - Dining philosophers pb **`--> vvv important`**
 
 # Deadlocks
 - contention for resource

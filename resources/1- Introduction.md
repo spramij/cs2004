@@ -1,3 +1,17 @@
+- [Operating Systems](#operating-systems)
+  - [What they do](#what-they-do)
+  - [How it be](#how-it-be)
+  - [OS is:](#os-is)
+  - [What is](#what-is)
+  - [Types of interrupt handling](#types-of-interrupt-handling)
+  - [Input / Output](#input--output)
+    - [has 2 possibilities](#has-2-possibilities)
+  - [Storage](#storage)
+    - [Order: from fastest to slowest](#order-from-fastest-to-slowest)
+    - [What is:](#what-is)
+  - [Multiprocessing](#multiprocessing)
+  - [Clustered systems](#clustered-systems)
+
 # Operating Systems
 ## What they do
 - execute user programs & makes solving problems easier

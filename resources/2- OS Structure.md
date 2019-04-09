@@ -1,3 +1,12 @@
+- [Operating systems](#operating-systems)
+  - [System calls](#system-calls)
+  - [Parameter passing](#parameter-passing)
+    - [can be done in diferent ways, from simplest to most complex](#can-be-done-in-diferent-ways-from-simplest-to-most-complex)
+  - [Multiple structures](#multiple-structures)
+    - [From simplest to most bs](#from-simplest-to-most-bs)
+  - [Program execution](#program-execution)
+
+
 # Operating systems
 - do the following:
     - UI : graphical or commandline

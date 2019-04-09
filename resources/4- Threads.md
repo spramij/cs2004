@@ -1,3 +1,9 @@
+- [Types of multicore programming](#types-of-multicore-programming)
+- [Amdahl's Law](#amdahls-law)
+- [Types of threads](#types-of-threads)
+- [Multithreaded modes](#multithreaded-modes)
+- [Implicit threading](#implicit-threading)
+
 ## Types of multicore programming
 - Data parallelism: subset of data across many cores doing the same thing
 - Task parallelism: data across cores doing different things
