@@ -16,11 +16,11 @@
 
 # Address Binding
 - Can happen at compile time:
-  - problem if that space is used already
+    - problem if that space is used already
 - Load time
-  - allows relocation
+    - allows relocation
 - Execution time:
-  - binding delayed until run time 
+    - binding delayed until run time 
 
 # Memory Management Unit
 - hardware device that maps virtual memory address to physical location
@@ -28,16 +28,16 @@
 
 # Linking
 - Static
-  - system libraries and code combined into binary program image on compile time
+    - system libraries and code combined into binary program image on compile time
 - Dynamic
-  - linking postponed until execution time
+    - linking postponed until execution time
 
 # Swapping
 - moving from memory to `backing store`, to free resources
-  - from RAM to HDD/SSD for example
+    - from RAM to HDD/SSD for example
 - major delay caused by transfer time
 - not possible in case of pending I/O operations, 
-  - possibly gotta be careful when swapping back in 
+    - possibly gotta be careful when swapping back in 
 
 # Memory allocation
 - First-fit
@@ -46,18 +46,18 @@
 
 Also
 - External fragmentation: memory available but not contiguous  
-  - solved by compaction
+    - solved by compaction
 - Internal fragmentation: process is allocated more than needed
 
 # Paging
 - memory split up in pages, chunks
-  - internal fragmentation
+    - internal fragmentation
 - must keep track of the pages, through a page-table
-  - if you have 512 pages of size 1024, you need $2^{9} + 2^{10}$ = 19 bits
+    - if you have 512 pages of size 1024, you need $2^{9} + 2^{10}$ = 19 bits
 
 # Effective access time
 - need: hit ratio, TLB access time, memory acces time
-  - $hit_ratio * memory_access_time + (1-hit_ratio)*(2*memory_access_time)$
+    - $hit_ratio * memory_access_time + (1-hit_ratio)*(2*memory_access_time)$
 
 # for more, refer to slides
 im ready to fuck this one up lmao

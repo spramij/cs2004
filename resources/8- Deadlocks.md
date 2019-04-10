@@ -31,12 +31,12 @@
 ## Safe state
 - state where any process can still receive resources that are requested
 - how to ?
-  - is Request $\le$ Need?
-  - is Request $\le$ Available?
-  - update:
-    - Available -= Request
-    - Allocated += Request
-    - Need -= Request
+    - is Request $\le$ Need?
+    - is Request $\le$ Available?
+    - update:
+        - Available -= Request
+        - Allocated += Request
+        - Need -= Request
   
 ## Banker's algo ([long video](https://www.youtube.com/watch?v=-VoZvNvYt-A)), ([short video](https://www.youtube.com/watch?v=lMNrmDUJ3GY))
 
@@ -49,7 +49,7 @@ etc
 - Running it
     - iterate through processes
     - is Need $\le$ Available?
-      - Available = Available + Allocated (because it runs and finishes, relinquinshing all resources)
+        - Available = Available + Allocated (because it runs and finishes, relinquinshing all resources)
     - go to next process
   
 # Deadlock detection
@@ -58,9 +58,8 @@ etc
 # Deadlock recovery
 - just fucking kill processes until it be gone
 - usually follows order depending on:
-  - priority, time spent, resources used, computation time left, # of processes to termination, interactive or batch process
+    - priority, time spent, resources used, computation time left, # of processes to termination, interactive or batch process
 - or, Resource Preemption
-  - select victim
-  - rollback to safe state, restart process
-    - but, maybe starvation here (always same rolled-back)
-    - 
+    - select victim
+    - rollback to safe state, restart process
+        - but, maybe starvation here (always same rolled-back)

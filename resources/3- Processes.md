@@ -66,9 +66,9 @@
 
 ## Synchronization
 - blocking:synchronous
-  - each blocks the other until confirmation of space available
+    - each blocks the other until confirmation of space available
 - non-blocking:synchronous
-  - keep send
+    - keep send
 - greatly simplifies Producer / Consumer problem
 
 ## Buffering
@@ -82,5 +82,5 @@
 - big endian or little endian
   
 ## Pipes
-  - named: access at any time by anyone, bidierctional
-  - ordinary (or anonymous): between 2 processes only
+    - named: access at any time by anyone, bidierctional
+    - ordinary (or anonymous): between 2 processes only

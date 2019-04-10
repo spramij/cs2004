@@ -15,12 +15,11 @@
 
 ## Solutions - [Read more here](https://stackoverflow.com/a/346678)
 - Mutex lock
-  - requires busy waiting (checking every x time and basically wastes resources) - called a spinlock
-  - they ensure only one process uses the resource
+    - requires busy waiting (checking every x time and basically wastes resources) - called a spinlock
+    - they ensure only one process uses the resource
 - Semaphores
-  - a little more advanced / sophisticated
-  - they limit the number of processes accessing a resources
+    - a little more advanced / sophisticated
+    - they limit the number of processes accessing a resources
 - [Monitors](http://www.cs.utexas.edu/users/witchel/372/lectures/08.Semaphore-Monitors.pdf)
-  - basically mutex but for any number of processes
-  - keeps the vars abstracted under a class, and functions/threads call those to access var (I think)
-  - 
+    - basically mutex but for any number of processes
+    - keeps the vars abstracted under a class, and functions/threads call those to access var (I think)
